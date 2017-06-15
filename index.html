@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img src="https://telegram.org/img/t_logo.png" height="25" width="25" </img></a>
+      <a class="navbar-brand" href="index.html">Language Translator App</a>
+   </div>
+  </div>
+ </nav>
+
+ <div class="container">
+   <div class="jumbotron">
+    <h3 class="text-center">Enter any sentence or a word</h3><br>
+    <form id="searchForm">
+      <h4>Type a word or a sentence</h4>
+      <input type="text" class="form-control" id="searchText" placeholder="i.e How are you ?"></input><br>
+      <h4>Type the language in which you want to translate</h4>
+      <input type="text" class="form-control" id="searchLang" placeholder="i.e French"></input><br>
+
+    </form>
+    <center><button class="btn btn-default" style="align:center" type="submit" form="searchForm" value="submit">Submit</button></center>
+
+
+
+   </div>
+
+
+ </div>
+
+ <div class="container">
+   <div id="details" class="row"></div>
+ </div>
+ <div class="container">
+   <div id="details2" class="row"></div>
+ </div>
+
+ <script>
+ function myFunction() {
+     language="en-fr";
+ }
+ </script>
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <script src="js/main.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<br>
+<br>
+
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div id="footer">
+          <ul class="footer">
+            <li>© WebApp built by <a href="http://www.iamsid.cf" target="_blank">Shubham Dhingra</a></li>
+            <li>Email: shbhmdhngr@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
