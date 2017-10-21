@@ -35,7 +35,7 @@ output=output+`
   <ul class="list-group">
   <li class="list-group-item"><h5>Latitude : ${response.data.results[0].geometry.location.lat}   </h5></li>
   <li class="list-group-item"><h5>Latitude : ${response.data.results[0].geometry.location.lng}   </h5></li>
-</ul>
+</ul> 
     `
 
  var sl11=response.data.results[0].geometry.location.lat;
